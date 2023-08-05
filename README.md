@@ -1,5 +1,7 @@
 # st
-st config
+
++ fork: https://git.suckless.org/st
+
 ## patchse
 
 + alpha
@@ -13,3 +15,10 @@ st config
 + hidecursor
 + line_snap_delimiter
 + scrollback
+
+## install 
+
+```shell
+make clean && rm -f config.h
+sudo make install clean
+```
