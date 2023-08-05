@@ -2,7 +2,7 @@
 
 + fork: https://git.suckless.org/st
 
-## patchse
+## patches
 
 + alpha
 + alphaFocusHighlight
