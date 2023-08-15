@@ -8,7 +8,7 @@
 static char *font = "ComicShannsMono Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
+/*	"Inconsolata for Powerline:pixelsize=14:antialias=true:autohint=true", */
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
 };
 
@@ -118,14 +118,14 @@ float alpha = 0.8, alphaUnfocused = 0.6;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
     /* 8 normal colors */
-    [0] = "#000000", /* black   */
-    [1] = "#ff5555", /* red     */
-    [2] = "#50fa7b", /* green   */
-    [3] = "#f1fa8c", /* yellow  */
-    [4] = "#bd93f9", /* blue    */
+    [0] = "#1e2326", /* black   */
+    [1] = "#e67e80", /* red     */
+    [2] = "#d699b6", /* purple  */
+    [3] = "#dbbc7f", /* yellow  */
+    [4] = "#7fbbb3", /* blue    */
     [5] = "#ff79c6", /* magenta */
     [6] = "#8be9fd", /* cyan    */
-    [7] = "#bbbbbb", /* white   */
+    [7] = "#748478", /* gray    */
                                   
     /* 8 bright colors */
     [8]  = "#44475a", /* black   */
@@ -138,8 +138,8 @@ static const char *colorname[] = {
     [15] = "#ffffff", /* white   */
                                    
     /* special colors */
-    [256] = "#282a36", /* background */
-    [257] = "#f8f8f2", /* foreground */
+    [256] = "#4f5b5b", /* background */
+    [257] = "#d3c6aa", /* foreground */
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
